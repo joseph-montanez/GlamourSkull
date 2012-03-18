@@ -1,0 +1,10 @@
+{
+	"name": "Cute Blonde Puppy",
+	"description": "This is a cute blond dog that you can take everywhere with you. It has a pink tinsel glitter background and iridesent glitter. It comes with a pink 16-18 inch necklace.",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/pinkpuppy.jpg"
+	]
+}

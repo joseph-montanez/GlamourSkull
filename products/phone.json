@@ -1,0 +1,10 @@
+{
+	"name": "Samsung Nexus Prime",
+	"description": "",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/Android-Ice-Cream-to-Come-on-Samsung-Nexus-Prime-21.jpg"
+	]
+}

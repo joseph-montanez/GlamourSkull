@@ -1,0 +1,350 @@
+{
+	"name": "Duck Tape Rose Pen",
+	"description": "Did you know that duct tape can make someone smile? These pens get SO much attention and countless smiles when people see them sitting on your desk or even in a vase. You can pass along the happiness by giving them as gifts, too. Go ahead, spread a little joy with a duct tape rose pen that will never wilt or die. These pens are hand crafted, and made by yours truly.",
+	"cost": 0.00,
+	"weight": 0.06,
+	"images": [
+		"products/rose-pen-01.jpg",
+		"products/rose-pen-02.jpg",
+		"products/rose-pen-03.jpg"
+	],
+	"options_title": "Build Your Rose Pen",
+	"options_name_layout": "{pen_ink_ballpoint}{pen_ink_highlighter}{pen_ink_sharpe_marker}{pen_ink_sharpe_fine_point} {pen_type} Pen with {pen_petal_1} / {pen_petal_2} petals and a {pen_stem} stem",
+	"options": [
+		{
+			"required": 1,
+			"name": "pen_type",
+			"title": "What kind of pen?",
+			"options": {
+				"Ballpoint": {
+					"cost": 1.75,
+					"colors": [
+						"Blue", "Black", "Red"
+					],
+					"weight": 0.0125
+				},
+				"Highlighter": {
+					"cost": 2.50,
+					"colors": [
+						"Blue", "Yellow", "Pink", "Orange"
+					],
+					"weight": 0.01875
+				},
+				"Sharpe Marker": {
+					"cost": 2.25,
+					"colors": [
+						"Black"
+					],
+					"weight": 0.01875
+				},
+				"Sharpe Fine Point": {
+					"cost": 2.25,
+					"colors": [
+						"Black"
+					],
+					"weight": 0.01875
+				}				
+			}
+		},
+		{
+			"required": 1,
+			"name": "pen_ink_ballpoint",
+			"title": "What color of ink?",
+			"options": ["Blue", "Black", "Red"],
+			"depends": ["pen_type", "Ballpoint"]
+		},
+		{
+			"required": 1,
+			"name": "pen_ink_highlighter",
+			"title": "What color of ink?",
+			"options": ["Blue", "Yellow", "Pink", "Orange"],
+			"depends": ["pen_type", "Highlighter"]
+		},
+		{
+			"required": 1,
+			"name": "pen_ink_sharpe_marker",
+			"title": "What color of ink?",
+			"options": ["Black"],
+			"depends": ["pen_type", "Sharpe Marker"]
+		},
+		{
+			"required": 1,
+			"name": "pen_ink_sharpe_fine_point",
+			"title": "What color of ink?",
+			"options": ["Black"],
+			"depends": ["pen_type", "Sharpe Fine Point"]
+		},
+		{
+			"required": 1,
+			"weight": 0.03125,
+			"name": "pen_petal_1",
+			"title": "What petal color?",
+			"options": {
+				"Black": {
+					"group": "Colors"
+				},
+				"Burgundy": {
+					"group": "Colors"
+				},
+				"Chrome": {
+					"group": "Colors"
+				},
+				"Dark Green": {
+					"group": "Colors"
+				},
+				"Gold": {
+					"group": "Colors"
+				},
+				"Lima Green": {
+					"group": "Colors"
+				},
+				"Navy Blue": {
+					"group": "Colors"
+				},
+				"Orange": {
+					"group": "Colors"
+				},
+				"Pink": {
+					"group": "Colors"
+				},
+				"Purple": {
+					"group": "Colors"
+				},
+				"Red": {
+					"group": "Colors"
+				},
+				"Teal": {
+					"group": "Colors"
+				},
+				"White": {
+					"group": "Colors"
+				},
+				"Yellow": {
+					"group": "Colors"
+				},
+				"ACU (Army Combat Uniform)": {
+					"group": "Pattern"
+				},
+				"Blue Plaid": {
+					"group": "Pattern"
+				},
+				"Blue with White Polka Dots": {
+					"group": "Pattern"
+				},
+				"Blue with White Snowflakes": {
+					"group": "Pattern"
+				},
+				"Butterfly": {
+					"group": "Pattern"
+				},
+				"Candy Cane": {
+					"group": "Pattern"
+				},
+				"Cheetah": {
+					"group": "Pattern"
+				},
+				"Pink Zebra": {
+					"group": "Pattern"
+				},
+				"Red with Black Dragon": {
+					"group": "Pattern"
+				},
+				"Regular Zebra": {
+					"group": "Pattern"
+				},
+				"\"Rock\" Pattern": {
+					"group": "Pattern"
+				},
+				"Skull": {
+					"group": "Pattern"
+				}
+			}
+		},
+		{
+			"required": 0,
+			"name": "pen_has_second_petal",
+			"title": "2nd Petal Color",
+			"type": "checkbox"
+		},
+		{
+			"required": 1,
+			"name": "pen_petal_2",
+			"title": "What petal color?",
+			"depends": ["pen_has_second_petal"],
+			"options": {
+				"Black": {
+					"group": "Colors"
+				},
+				"Burgundy": {
+					"group": "Colors"
+				},
+				"Chrome": {
+					"group": "Colors"
+				},
+				"Dark Green": {
+					"group": "Colors"
+				},
+				"Gold": {
+					"group": "Colors"
+				},
+				"Lima Green": {
+					"group": "Colors"
+				},
+				"Navy Blue": {
+					"group": "Colors"
+				},
+				"Orange": {
+					"group": "Colors"
+				},
+				"Pink": {
+					"group": "Colors"
+				},
+				"Purple": {
+					"group": "Colors"
+				},
+				"Red": {
+					"group": "Colors"
+				},
+				"Teal": {
+					"group": "Colors"
+				},
+				"White": {
+					"group": "Colors"
+				},
+				"Yellow": {
+					"group": "Colors"
+				},
+				"ACU (Army Combat Uniform)": {
+					"group": "Pattern"
+				},
+				"Blue Plaid": {
+					"group": "Pattern"
+				},
+				"Blue with White Polka Dots": {
+					"group": "Pattern"
+				},
+				"Blue with White Snowflakes": {
+					"group": "Pattern"
+				},
+				"Butterfly": {
+					"group": "Pattern"
+				},
+				"Candy Cane": {
+					"group": "Pattern"
+				},
+				"Cheetah": {
+					"group": "Pattern"
+				},
+				"Pink Zebra": {
+					"group": "Pattern"
+				},
+				"Red with Black Dragon": {
+					"group": "Pattern"
+				},
+				"Regular Zebra": {
+					"group": "Pattern"
+				},
+				"\"Rock\" Pattern": {
+					"group": "Pattern"
+				},
+				"Skull": {
+					"group": "Pattern"
+				}
+			}			
+		},
+		{
+			"required": 1,
+			"name": "pen_stem",
+			"title": "What stem color?",
+			"options": {
+				"Black": {
+					"group": "Colors"
+				},
+				"Burgundy": {
+					"group": "Colors"
+				},
+				"Chrome": {
+					"group": "Colors"
+				},
+				"Dark Green": {
+					"group": "Colors"
+				},
+				"Gold": {
+					"group": "Colors"
+				},
+				"Lima Green": {
+					"group": "Colors"
+				},
+				"Navy Blue": {
+					"group": "Colors"
+				},
+				"Orange": {
+					"group": "Colors"
+				},
+				"Pink": {
+					"group": "Colors"
+				},
+				"Purple": {
+					"group": "Colors"
+				},
+				"Red": {
+					"group": "Colors"
+				},
+				"Teal": {
+					"group": "Colors"
+				},
+				"White": {
+					"group": "Colors"
+				},
+				"Yellow": {
+					"group": "Colors"
+				},
+				"ACU (Army Combat Uniform)": {
+					"group": "Pattern"
+				},
+				"Blue Plaid": {
+					"group": "Pattern"
+				},
+				"Blue with White Polka Dots": {
+					"group": "Pattern"
+				},
+				"Blue with White Snowflakes": {
+					"group": "Pattern"
+				},
+				"Butterfly": {
+					"group": "Pattern"
+				},
+				"Candy Cane": {
+					"group": "Pattern"
+				},
+				"Cheetah": {
+					"group": "Pattern"
+				},
+				"Hello Kitty": {
+					"cost": {
+						"Ballpoint": 0.25,
+						"Highlighter": 0.50,
+						"Sharpe Marker": 0.75,
+						"Sharpe Fine Point": 0.75			
+					},
+					"group": "Pattern"
+				},
+				"Pink Zebra": {
+					"group": "Pattern"
+				},
+				"Red with Black Dragon": {
+					"group": "Pattern"
+				},
+				"Regular Zebra": {
+					"group": "Pattern"
+				},
+				"\"Rock\" Pattern": {
+					"group": "Pattern"
+				},
+				"Skull": {
+					"group": "Pattern"
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "Gumball and Candy Square",
+	"description": "This is a super cute gumball machine with candy square necklace. It has iridesent holographic glitter in the background. It comes with a 16-18 inch red necklace.",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/gumballcandysquare.jpg"
+	]
+}

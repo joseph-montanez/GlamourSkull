@@ -1,0 +1,10 @@
+{
+	"name": "Blue Kawaii Kitty",
+	"description": "Super cute kawaii kitty with a rainbow behind him. The background has some holographic glitter. Comes with a 16-18 inch necklace in a aqua blue color.",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/bluekawaiikitty.jpg"
+	]
+}

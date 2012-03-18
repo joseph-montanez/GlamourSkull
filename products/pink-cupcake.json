@@ -1,0 +1,10 @@
+{
+	"name": "Pink Cupcake",
+	"description": "Super cute pink cupcake necklace with a blue glittery background. Comes with a blue 16-18 inch necklace.",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/pinkcupcake.jpg"
+	]
+}

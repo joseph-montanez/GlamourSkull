@@ -1,0 +1,10 @@
+{
+	"name": "Heart Crossbones",
+	"description": "This is a cute punk themed heart with cross bone necklace. It has silver holographic glitter in the background. It comes on a 16-18 inch red necklace. ",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/heart-crossbones.jpg"
+	]
+}

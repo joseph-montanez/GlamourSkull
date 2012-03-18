@@ -1,0 +1,10 @@
+{
+	"name": "Kawaii Bear",
+	"description": "Super cute kawaii bear pendent with some sweets in the background. The background has holographic rainbow glitter. Comes on a 16-18 inch pink necklace.",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/kawaiibear.jpg"
+	]
+}

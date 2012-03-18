@@ -1,0 +1,10 @@
+{
+	"name": "Kawaii Lion",
+	"description": "Super cute lion, with a green grassy area and blue holographic sky. It comes with a 16-18 inch green necklace.",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/kawaiilion.jpg"
+	]
+}

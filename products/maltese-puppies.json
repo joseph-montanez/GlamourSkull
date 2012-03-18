@@ -1,0 +1,10 @@
+{
+	"name": "Maltese Puppy",
+	"description": "This is a super cute maltese puppy necklace. Now you can take your favorite breed everywhere with you. It comes on a 16-18 inch pink necklace.",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/maltesepuppies.jpg"
+	]
+}

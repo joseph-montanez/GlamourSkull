@@ -1,0 +1,10 @@
+{
+	"name": "Blue Fish Bone",
+	"description": "Super cute pink fish bone necklace. It has iridesent holographic glitter mixed inside. It comes with a 16-18 inch pink necklace.",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/bluefishbones.jpg"
+	]
+}

@@ -1,0 +1,10 @@
+{
+	"name": "Rose Skull and Crossbones",
+	"description": "Here is a cute punk skull with a rose and cross bones. Its super cute, and has multicolored glitter in the background. It comes with a blue 16-18 inch necklace.",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/roseskullcrossbones.jpg"
+	]
+}

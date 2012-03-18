@@ -1,0 +1,10 @@
+{
+	"name": "Sweetaholic Bunny",
+	"description": "This bunny is a sweets-a-holic! He just can't get enough! It comes on a 16-18 inch purple necklace.",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/sweetbunny.jpg"
+	]
+}

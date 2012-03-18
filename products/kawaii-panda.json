@@ -1,0 +1,10 @@
+{
+	"name": "Super Cute Panda",
+	"description": "Heres a super cute panda that you can take everywhere with you. He has holographic green glitter behind him in two different shades. It comes with a 16-18 inch green necklace.",
+	"cost": 15.00,
+	"weight": 0.06,
+	"maxqty": 1,
+	"images": [
+		"products/images/kawaiipanda.jpg"
+	]
+}
